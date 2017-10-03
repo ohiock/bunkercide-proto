@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Row, Col, Navbar, Nav, NavItem } from 'react-bootstrap';
-import logo from './logo.svg';
+import { Grid, Row, Col, Navbar, Nav, NavItem, Thumbnail } from 'react-bootstrap';
 import './App.css';
 
 class App extends Component {
@@ -23,6 +22,48 @@ class App extends Component {
                   </Nav>
                 </Navbar.Collapse>
               </Navbar>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={6}>
+              <Thumbnail src="http://via.placeholder.com/250x250" alt="250x250" className="text-left">
+                <h3>Item 1</h3>
+                <p>This is item 1's description. Look how great it is!</p>
+              </Thumbnail>
+            </Col>
+            <Col xs={6}>
+              <Thumbnail src="http://via.placeholder.com/250x250" alt="250x250" className="text-left">
+                <h3>Item 1</h3>
+                <p>This is item 1's description. Look how great it is!</p>
+              </Thumbnail>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={6}>
+              <Thumbnail src="http://via.placeholder.com/250x250" alt="250x250" className="text-left">
+                <h3>Item 1</h3>
+                <p>This is item 1's description. Look how great it is!</p>
+              </Thumbnail>
+            </Col>
+            <Col xs={6}>
+              <Thumbnail src="http://via.placeholder.com/250x250" alt="250x250" className="text-left">
+                <h3>Item 1</h3>
+                <p>This is item 1's description. Look how great it is!</p>
+              </Thumbnail>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={6}>
+              <Thumbnail src="http://via.placeholder.com/250x250" alt="250x250" className="text-left">
+                <h3>Item 1</h3>
+                <p>This is item 1's description. Look how great it is!</p>
+              </Thumbnail>
+            </Col>
+            <Col xs={6}>
+              <Thumbnail src="http://via.placeholder.com/250x250" alt="250x250" className="text-left">
+                <h3>Item 1</h3>
+                <p>This is item 1's description. Look how great it is!</p>
+              </Thumbnail>
             </Col>
           </Row>
         </Grid>
