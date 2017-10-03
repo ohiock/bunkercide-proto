@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Row, Col } from 'react-bootstrap';
+import { Grid, Row, Col, Navbar, Nav, NavItem } from 'react-bootstrap';
 import logo from './logo.svg';
 import './App.css';
 
@@ -9,8 +9,21 @@ class App extends Component {
       <div className="App">
         <Grid>
           <Row>
-            <Col xs={8}>Hello</Col>
-            <Col xs={4}>There</Col>
+            <Col xs={12}>
+              <Navbar>
+                <Navbar.Header>
+                  <Navbar.Brand>Bunkercide</Navbar.Brand>
+                  <Navbar.Toggle />
+                </Navbar.Header>
+                <Navbar.Collapse>
+                  <Nav>
+                    <NavItem>Home</NavItem>
+                    <NavItem>About</NavItem>
+                    <NavItem>Contact</NavItem>
+                  </Nav>
+                </Navbar.Collapse>
+              </Navbar>
+            </Col>
           </Row>
         </Grid>
       </div>
